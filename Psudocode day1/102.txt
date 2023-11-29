@@ -1,0 +1,33 @@
+start grade = 0
+read score
+if(score = 100){
+        then grade = SSR
+    }
+    elif(score <= 49){
+        then grade = F
+    }
+    elif(score <= 54){
+        then grade = D
+    }
+    elif(score <= 59){
+        then grade = D+
+    }
+    elif(score <= 64){
+        then grade = C 
+    }
+    elif(score <= 69){
+        then grade = C+
+    }
+    elif(score <= 74){
+        then grade = B
+    }
+    elif(score <= 79){
+        then grade = B+
+    }
+    elif(score <= 99){
+        then grade = A
+    }
+
+    endif
+print grade
+stop
